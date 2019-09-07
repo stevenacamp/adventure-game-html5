@@ -1,0 +1,42 @@
+/* .container{
+    opacity:0.8;
+    background-color:rgba(0, 0, 0, 0.907);
+    position: relative;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    z-index:1000;
+} */
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+.creepy {
+    font-family: 'Creepster', cursive;
+    letter-spacing: 5px;
+}
+
+.bg-image {
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../assets/houseFront.jpg");
+    height: 100%;
+}
+
+#title {
+    color: #560152;
+    font-size: 5vw;
+    text-align: center;
+    
+}
+#begin a{
+    position: absolute;
+    bottom: 100px;
+    left: 280px;
+    color: #55ff66;
+    font-size: 3vw;
+}
